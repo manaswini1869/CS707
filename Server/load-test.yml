@@ -1,0 +1,8 @@
+config:
+  target: 'http://localhost:5000'  
+scenarios:
+  - flow:
+      - get:
+          url: '/'
+
+#npx artillery run load-test.yml
